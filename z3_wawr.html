@@ -1,16 +1,33 @@
-<!DOCTYPE html>
-<html>
-   <head>
-      <title>Wawrzyniak-Pekar-Klasa 3G</title>
-      <script language="JavaScript">
-         function WinOpen_wawr() {
-            window.open("obraz.html", "okienko", "toolbar=no,directories=no,menubar=no,height=380,width=160,top=200,left=200");
-         }
-      </script>
-   </head>
-   <body>
-      <form>
-         <input type="button" name="zadanie3" value="zadanie3-Wawrzyniak-Pekar" onclick="WinOpen_wawr()">
-      </form>
-   </body>
+<html> 
+     <head> 
+            <title> Wawrzyniak-Pekar 3G</title> 
+          <script language="JavaScript"> 
+             function WinOpen()  
+               { 
+window.open("obraz.html","okienko","toolbar=no,directories=no,menubar=no,height=380,width=160,top=200,left=200"); 
+               } 
+          </script> 
+      </head> 
+<body> 
+   <form> 
+  <input type="button" name="zadanie3" value="zadanie3-Wawrzyniak-Pekar" onclick="WinOpen(' ')"> 
+    </form> 
+</body> 
+</html> 
+ 
+Plik o nazwie obraz1.html 
+<html> 
+     <head> 
+           <script type="text/javascript"> 
+                 function okno_zamknij()  
+                       { 
+                             window.close() 
+                       } 
+            </script> 
+     </head> 
+<body> 
+       Wawrzyniak-Pekar
+      <img src="obraz1.gif" />  
+      <input type="button" value="zamknij okno" onclick="okno_zamknij()"/> 
+</body> 
 </html>
