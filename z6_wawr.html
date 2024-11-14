@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wawrzyniak-Pekar-Zadanie6</title>
+</head>
+<body>
+
+    <h1>JavaScript:Zadanie 6</h1>
+
+    <script>
+        alert("To jest okienko alert - wyświetla komunikat i przycisk OK.");
+
+        let userInput = prompt("Wpisz dowolną liczbę:");
+
+        let userConfirmed = confirm("Czy na pewno chcesz kontynuować?");
+
+        let numberFloat = parseFloat(userInput);
+        let numberInt = parseInt(userInput);
+        let numberString = numberFloat.toString();
+
+        alert("Liczba zmiennoprzecinkowa: " + numberFloat);
+        alert("Liczba całkowita: " + numberInt);
+        alert("Liczba jako tekst: " + numberString);
+
+        let zmienna1 = 10;
+        let $wynik = 20;
+        let _rozmiar = 30;
+        let wynik1 = zmienna1 + $wynik + _rozmiar;
+
+        let Rekord = 100;
+        let rekord = 200;
+
+        let zmienna = "Nie jest słowem kluczowym";
+
+        let liczba = 42;
+        let tekst = "To jest tekst";
+        let prawdaFałsz = true;
+        let brakWartosci = null;
+        let nieZdefiniowana;
+        let obiekt = { imie: "Jan", wiek: 25 };
+
+        console.log("Typ zmiennej liczba:", typeof liczba);
+        console.log("Typ zmiennej tekst:", typeof tekst);
+        console.log("Typ zmiennej prawdaFałsz:", typeof prawdaFałsz);
+        console.log("Typ zmiennej brakWartosci:", typeof brakWartosci);
+        console.log("Typ zmiennej nieZdefiniowana:", typeof nieZdefiniowana);
+        console.log("Typ zmiennej obiekt:", typeof obiekt);
+    </script>
+
+</body>
+</html>
