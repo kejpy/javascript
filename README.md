@@ -1,4 +1,3 @@
-
 <html>
 <head>
    <title>Wawrzyniak-Peakr-3G</title>
@@ -23,6 +22,10 @@
          window.open("z5_wawr.html", "okienko_z5", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=200,left=600");
       }
 
+      function WinOpen_z6() {
+         window.open("z6_wawr.html", "okienko_z6", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+      }
+
       function okno_zamknij() {
          window.close();
       }
@@ -36,6 +39,7 @@
       <input type="button" name="zadanie3" value="Zadanie3-Wawrzyniak-Peakr-3G" onclick="WinOpen_z3()">
       <input type="button" name="zadanie4" value="Zadanie4-Wawrzyniak-Peakr-3G" onclick="WinOpen_z4()">
       <input type="button" name="zadanie5" value="Zadanie5-Wawrzyniak-Peakr-3G" onclick="WinOpen_z5_wieniawa()">
+      <input type="button" name="zadanie6" value="Zadanie6-Wawrzyniak-Peakr-3G" onclick="WinOpen_z6()">
       <input type="button" value="Zamknij okno" onclick="okno_zamknij()"/>
    </form>
 </body>
