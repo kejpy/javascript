@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sterowanie wydrukami - Rozwiązanie</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .wynik {
+            color: navy;
+            font-size: 20px;
+        }
+        .wynik-wzor {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Obliczanie \( (A + B)^3 \)</h1>
+    <p>Podaj dwie liczby:</p>
+
+    <script>
+
+        var A = parseInt(prompt("Podaj pierwszą liczbę:"));
+        var B = parseInt(prompt("Podaj drugą liczbę:"));
+        
+
+        var wynik = Math.pow(A + B, 3);
+        var wynikA = Math.pow(A, 3);
+        var wynikB = Math.pow(B, 3);
+        var wynikTerminy = 3 * A * A * B + 3 * A * B * B;
+        
+
+        document.write('<div class="wynik">Wczytane liczby: A = ' + A + ', B = ' + B + '</div>');
+        document.write('<div class="wynik-wzor">(' + A + ' + ' + B + ')^3 = ' + wynikA + ' + ' + wynikTerminy + ' + ' + wynikB + ' = ' + wynik + '</div>');
+    </script>
+
+    <button onclick="window.location.href='index.html'">Powrót do strony głównej</button>
+</body>
+</html>
