@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 10 - Proste obliczenia</title>
+</head>
+<body>
+    <h1>Zadanie 10: Obliczanie sumy dwóch liczb</h1>
+    <div style="color:red; font-size:24px;">
+        <script language="JavaScript">
+            var liczba1 = prompt("Podaj pierwszą liczbę:", "");
+            var liczba2 = prompt("Podaj drugą liczbę:", "");
+
+            var a = parseFloat(liczba1);
+            var b = parseFloat(liczba2);
+
+            var suma = a + b;
+
+            if (!isNaN(a) && !isNaN(b)) {
+                document.write("Suma = " + a + " + " + b + " = " + suma + "<br>");
+            } else {
+                document.write("Podano nieprawidłowe dane. Spróbuj ponownie.");
+            }
+        </script>
+    </div>
+</body>
+</html>
