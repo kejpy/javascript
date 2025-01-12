@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rozkład ułamka egipskiego - Zadanie 15</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .wynik {
+            color: navy;
+            font-size: 20px;
+        }
+        textarea {
+            width: 100%;
+            height: 300px;
+            margin-top: 20px;
+            font-family: monospace;
+            font-size: 16px;
+            white-space: pre-wrap;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+
+    <h1>KOD ZADANIE 15</h1>
+
+
+    <textarea readonly>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rozkład ułamka egipskiego - Zadanie 15</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 20px;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Rozkład ułamka \( \frac{1}{3} \) i \( \frac{1}{7} \) na dwa takie same ułamki egipskie:</h1>
+    <p>1/3 = 1/6 + 1/6</p>
+    <p>1/7 = 1/14 + 1/14</p>
+    
+    <p>Sprawdzenie:</p>
+    <button onclick="sprawdzRozklad()">Sprawdź, czy rozkład jest poprawny</button>
+    
+    <div id="wynik"></div>
+
+    <button onclick="window.location.href='index.html'">Powrót do strony głównej</button>
+
+    <script>
+        function sprawdzRozklad() {
+            let wynik = document.getElementById("wynik");
+            
+
+            let rozklad_1_3 = (1/6) + (1/6); 
+            let rozklad_1_7 = (1/14) + (1/14); 
+            
+
+            let wynikSprawdzania = (rozklad_1_3 === 1/3 && rozklad_1_7 === 1/7) 
+                ? "Rozkład jest poprawny!" 
+                : "Rozkład jest niepoprawny!";
+            
+            wynik.innerHTML = wynikSprawdzania;
+        }
+    </script>
+</body>
+</html>
+    </textarea>
+
+</body>
+</html>
