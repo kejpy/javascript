@@ -24,6 +24,70 @@
 
       function WinOpen_z6() {
          window.open("z6_wawr.html", "okienko_z6", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+     }
+
+      function WinOpen_z7() {
+         window.open("Zadanie7-Wawrzyniak-Peakr-3G.html", "okienko_z7", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+      }
+      
+      function WinOpen_z8() {
+         window.open("Zadanie8-Wawrzyniak-Peakr-3G.html", "okienko_z8", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+      }
+
+      function WinOpen_z9() {
+         window.open("Zadanie9-Wawrzyniak-Peakr-3G.html", "okienko_z9", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+      }
+
+      function WinOpen_z10() {
+         window.open("Zadanie10-Wawrzyniak-Peakr-3G.html", "okienko_z10", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+      }
+
+      function WinOpen_z11() {
+         window.open("Zadanie11-Wawrzyniak-Peakr-3G.html", "okienko_z11", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+      }
+
+      function WinOpen_z12() {
+         window.open("Zadanie12-Wawrzyniak-Peakr-3G.html", "okienko_z12", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+     }
+
+      function WinOpen_z13() {
+         window.open("Zadanie13-Wawrzyniak-Peakr-3G.html", "okienko_z13", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+     }
+
+      function WinOpen_z14() {
+         window.open("Zadanie14-Wawrzyniak-Peakr-3G.html", "okienko_z14", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+     }
+
+      function WinOpen_z15() {
+         window.open("Zadanie15-Wawrzyniak-Peakr-3G.html", "okienko_z15", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+     }
+
+      function WinOpen_z16() {
+         window.open("Zadanie16-Wawrzyniak-Peakr-3G.html", "okienko_z16", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+     }
+
+      function WinOpen_z11_kod() {
+         window.open("Zadanie11-Wawrzyniak-Peakr-3G kod.html", "okienko_z11", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+      }
+
+      function WinOpen_z12_kod() {
+         window.open("Zadanie12-Wawrzyniak-Peakr-3G kod.html", "okienko_z12", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+       }
+
+      function WinOpen_z13_kod() {
+         window.open("Zadanie13-Wawrzyniak-Peakr-3G kod.html", "okienko_z13", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+       }
+
+      function WinOpen_z14_kod() {
+         window.open("Zadanie14-Wawrzyniak-Peakr-3G kod.html", "okienko_z14", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+      }
+
+      function WinOpen_z15_kod() {
+         window.open("Zadanie15-Wawrzyniak-Peakr-3G kod.html", "okienko_z15", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+     }
+
+      function WinOpen_z16_kod() {
+         window.open("Zadanie16-Wawrzyniak-Peakr-3G KOD.html", "okienko_z16", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
       }
 
       function okno_zamknij() {
