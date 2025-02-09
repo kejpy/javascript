@@ -102,12 +102,12 @@
      }
      
       function WinOpen_z19() {
-         window.open("z19_wawr.html", "okienko_z19", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+         window.open("z19__wawr.html", "okienko_z19", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
        
      }
      
       function WinOpen_z20() {
-         window.open("z20_wawr.html", "okienko_z20", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+         window.open("z20__wawr.html", "okienko_z20", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
        
      }
      
