@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<textarea>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie19</title>
+    <style>
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Wszystko o KWADRACIE</h1>
+    <br><br>
+    Podaj długość boku: <input type="text" id="dlugosc" value=""> cm<br><br><br>
+    <input type="button" name="pole" value="Oblicz pole" onclick="Pole_wawr()"><br><br>
+    <input type="button" name="obwod" value="Oblicz obwód" onclick="Obwod_wawr()"><br><br>
+    <div style="color:red;font-size:50px;" id="nazwa"></div>
+    
+    <script>
+        function Pole_wawr() {
+            var a_wawr = parseFloat(document.getElementById('dlugosc').value);
+            var b_wawr = a_wawr * a_wawr;
+            document.getElementById("nazwa").innerHTML = "Pole kwadratu= " + b_wawr.toFixed(2) + " cm²";
+        }
+        
+        function Obwod_wawr() {
+            var a_wawr = parseFloat(document.getElementById('dlugosc').value);
+            var b_wawr = 4 * a_wawr;
+            document.getElementById("nazwa").innerHTML = "Obwód kwadratu= " + b_wawr.toFixed(2) + " cm";
+        }
+    </script> 
+</body>
+</html>
+
+</textarea>
+</body>
+</html>
