@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<textarea>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie20</title>
+    <style>
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <label>A(xa, ya):</label>
+    <input type="text" id="xa_wawr" placeholder="xa">
+    <input type="text" id="ya_wawr" placeholder="ya"><br><br>
+    
+    <label>B(xb, yb):</label>
+    <input type="text" id="xb_wawr" placeholder="xb">
+    <input type="text" id="yb_wawr" placeholder="yb"><br><br>
+    
+    <label>C(xc, yc):</label>
+    <input type="text" id="xc_wawr" placeholder="xc">
+    <input type="text" id="yc_wawr" placeholder="yc"><br><br>
+    
+    <input type="button" value="Oblicz AB" onclick="AB_wawr()">
+    <input type="button" value="Oblicz BC" onclick="BC_wawr()">
+    <input type="button" value="Oblicz AC" onclick="AC_wawr()"><br><br>
+    
+    <div id="wynik" style="color:red;font-size:24px;"></div>
+    
+    <script>
+        function obliczDlugosc(x1, y1, x2, y2) {
+            return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2)).toFixed(2);
+        }
+        
+        function AB_wawr() {
+            var xa_wawr = parseFloat(document.getElementById('xa_wawr').value);
+            var ya_wawr = parseFloat(document.getElementById('ya_wawr').value);
+            var xb_wawr = parseFloat(document.getElementById('xb_wawr').value);
+            var yb_wawr = parseFloat(document.getElementById('yb_wawr').value);
+            var wynik = obliczDlugosc(xa_wawr, ya_wawr, xb_wawr, yb_wawr);
+            document.getElementById("wynik").innerHTML = "Długość AB: " + wynik + " cm";
+        }
+        
+        function BC_wawr() {
+            var xb_wawr = parseFloat(document.getElementById('xb_wawr').value);
+            var yb_wawr = parseFloat(document.getElementById('yb_wawr').value);
+            var xc_wawr = parseFloat(document.getElementById('xc_wawr').value);
+            var yc_wawr = parseFloat(document.getElementById('yc_wawr').value);
+            var wynik = obliczDlugosc(xb_wawr, yb_wawr, xc_wawr, yc_wawr);
+            document.getElementById("wynik").innerHTML = "Długość BC: " + wynik + " cm";
+        }
+        
+        function AC_wawr() {
+            var xa_wawr = parseFloat(document.getElementById('xa_wawr').value);
+            var ya_wawr = parseFloat(document.getElementById('ya_wawr').value);
+            var xc_wawr = parseFloat(document.getElementById('xc_wawr').value);
+            var yc_wawr = parseFloat(document.getElementById('yc_wawr').value);
+            var wynik = obliczDlugosc(xa_wawr, ya_wawr, xc_wawr, yc_wawr);
+            document.getElementById("wynik").innerHTML = "Długość AC: " + wynik + " cm";
+        }
+    </script>
+</body>
+</html>
+
+</textarea>
+</body>
+</html>
