@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kowalski_Zadanie17</title>
+    <style>
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Zadanie 17 - Teoria</h1>
+    <h2>Pytania i odpowiedzi</h2>
+    
+    <p><strong><u>1. Wymień cztery sposoby wyprowadzania danych w JS:</u></strong></p>
+    <ul>
+        <li>z użyciem <strong>document.write()</strong></li>
+        <li>z użyciem okienka <strong>alert()</strong></li>
+        <li>do okienek formularza</li>
+        <li>do tabeli</li>
+    </ul>
+
+    <p><strong><u>2. Czym jest funkcja w JS?</u></strong></p>
+    <ul>
+        <li>Jest to zbiór zgrupowanych instrukcji, które możemy uruchamiać poprzez podanie ich nazwy.</li>
+        <li>Każda funkcja po wywołaniu wykonuje swój wewnętrzny kod.</li>
+        <li>Funkcja może mieć argumenty, które wchodzą do wnętrza funkcji i są tam przetwarzane np. <code>suma_kry(a, b)</code>.</li>
+        <li>Może (nie zawsze) zwrócić obliczoną wartość zapisaną po słowie kluczowym <strong>return</strong>.</li>
+    </ul>
+    
+    <p><strong><u>3. Metody dostępu do elementów</u></strong></p>
+    <table border="1">
+        <tr>
+            <th>Metoda</th>
+            <th>Opis</th>
+        </tr>
+        <tr>
+            <td><code>getElementById("id")</code></td>
+            <td>Dostęp do elementu o konkretnej wartości atrybutu <code>id</code>.</td>
+        </tr>
+        <tr>
+            <td><code>getElementsByTagName("znacznik")</code></td>
+            <td>Dostęp do wszystkich elementów danego typu znacznika, np. <code>P</code> lub <code>DIV</code>.</td>
+        </tr>
+        <tr>
+            <td><code>getElementsByName("nazwa")</code></td>
+            <td>Dostęp do wszystkich elementów o konkretnej wartości atrybutu <code>name</code>.</td>
+        </tr>
+    </table>
+    
+    <p><strong><u>4. Właściwości elementów</u></strong></p>
+    <ul>
+        <li><strong>innerHTML</strong> – umożliwia odczyt, modyfikację, wstawienie lub usunięcie kodu HTML w elemencie.</li>
+        <li><strong>innerText</strong> – określa ciąg znaków, który zostanie umieszczony w elemencie.</li>
+        <li><strong>className</strong> – umożliwia określenie klasy CSS użytej do prezentacji elementu.</li>
+    </ul>
+</body>
+</html>
