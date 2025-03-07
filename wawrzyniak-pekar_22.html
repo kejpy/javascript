@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie22</title>
+    <script>
+        function Pole_wawr(a_wawr, b_wawr) {
+            var a_liczba = parseFloat(a_wawr);
+            var b_liczba = parseFloat(b_wawr);
+            var pole_wynik = a_liczba * b_liczba;
+            document.getElementsByName('pole')[0].value = pole_wynik.toFixed(2);
+            document.getElementById("wyprowadz_pole_wawr").innerHTML = "Pole = " + pole_wynik.toFixed(2) + " cm²";
+        }
+        
+        function obwod_wawr(a_wawr, b_wawr) {
+            var a_liczba = parseFloat(a_wawr);
+            var b_liczba = parseFloat(b_wawr);
+            var obwod_wynik = 2 * (a_liczba + b_liczba);
+            document.getElementsByName('obw')[0].value = obwod_wynik.toFixed(2);
+            document.getElementById("wyprowadz_obwod_wawr").innerHTML = "Obwód = " + obwod_wynik.toFixed(2) + " cm";
+        }
+    </script>
+</head>
+<body>
+    <h2>Obliczanie pola i obwodu prostokąta</h2>
+    <form name="formularz" action="..." onsubmit="Pole_wawr(this.a_dana_wawr.value, this.b_dana_wawr.value); obwod_wawr(this.a_dana_wawr.value, this.b_dana_wawr.value); return false;">
+        Podaj a = <input size="6" name="a_dana_wawr"> cm<br><br>
+        Podaj b = <input size="6" name="b_dana_wawr"> cm<br><br>
+        <input type="submit" value="Oblicz">
+    </form>
+    <br>
+    Pole = <input size="6" name="pole"> cm²<br>
+    Obwód = <input size="6" name="obw"> cm<br>
+    <br>
+    <table>
+        <tr id="wyprowadz_pole_wawr"></tr>
+        <tr id="wyprowadz_obwod_wawr"></tr>
+    </table>
+</body>
+</html>
