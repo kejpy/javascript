@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<textarea>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie23</title>
+    <script>
+        function obliczDlugoscDrabiny(D, X) {
+            return Math.sqrt(Math.pow(D, 2) + Math.pow(X, 2));
+        }
+        
+        function obliczKatNachylenia(D, X) {
+            return Math.atan(D / X) * (180 / Math.PI);
+        }
+        
+        function wykonajObliczenia() {
+            let D = parseFloat(document.getElementById("wysokosc").value);
+            let X = parseFloat(document.getElementById("odleglosc").value);
+            
+            if (isNaN(D) || isNaN(X) || D <= 0 || X <= 0) {
+                alert("Podaj poprawne wartości dla D i X.");
+                return;
+            }
+            
+            let dlugoscDrabiny = obliczDlugoscDrabiny(D, X);
+            let katNachylenia = obliczKatNachylenia(D, X);
+            
+            document.getElementById("dlugosc").value = dlugoscDrabiny.toFixed(2);
+            document.getElementById("kat").value = katNachylenia.toFixed(2);
+        }
+    </script>
+</head>
+<body>
+    <h2>Obliczanie długości drabiny i kąta nachylenia</h2>
+    <form onsubmit="wykonajObliczenia(); return false;">
+        <label for="wysokosc">Podaj wysokość oparcia drabiny (D) [m]:</label>
+        <input type="number" id="wysokosc" step="0.01" required><br><br>
+        
+        <label for="odleglosc">Podaj odległość podstawy drabiny od muru (X) [m]:</label>
+        <input type="number" id="odleglosc" step="0.01" required><br><br>
+        
+        <button type="submit">Oblicz</button>
+    </form>
+    
+    <h3>Wyniki:</h3>
+    <label>Długość drabiny [m]:</label>
+    <input type="text" id="dlugosc" readonly><br><br>
+    
+    <label>Kąt nachylenia drabiny [°]:</label>
+    <input type="text" id="kat" readonly>
+</body>k
+</html>
+
+</textarea>
+</body>
+</html>
