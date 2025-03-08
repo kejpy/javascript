@@ -148,8 +148,40 @@
      
       function WinOpen_z23_kod() {
          window.open("wawrzyniak-pekar_23_KOD.html", "okienko_z23", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
-    }
-
+    }   
+    
+      function WinOpen_z28() {
+         window.open("wawrzyniak-pekar_28.html", "okienko_z28", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+    }    
+    
+      function WinOpen_z29() {
+         window.open("wawrzyniak-pekar_29.html", "okienko_z29", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+    }  
+    
+      function WinOpen_z30() {
+         window.open("wawrzyniak-pekar_30.html", "okienko_z30", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+    }      
+    
+      function WinOpen_z31() {
+         window.open("wawrzyniak-pekar_31.html", "okienko_z31", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+    }                               
+    
+      function WinOpen_z32() {
+         window.open("wawrzyniak-pekar_32.html", "okienko_z32", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+    }             
+    
+      function WinOpen_z30_kod() {
+         window.open("wawrzyniak-pekar_30.html", "okienko_z30", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+    }           
+    
+      function WinOpen_z31_kod() {
+         window.open("wawrzyniak-pekar_31.html", "okienko_z31", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+    }         
+    
+      function WinOpen_z32_kod() {
+         window.open("wawrzyniak-pekar_32.html", "okienko_z32", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+    }        
+     
       function okno_zamknij() {
          window.close();
       }
@@ -181,17 +213,25 @@
             <input type="button" name="zadanie21" value="Zadanie21-Wawrzyniak-Peakr-3G" onclick="WinOpen_z21()">
             <input type="button" name="zadanie22" value="Zadanie22-Wawrzyniak-Peakr-3G" onclick="WinOpen_z22()">
             <input type="button" name="zadanie23" value="Zadanie23-Wawrzyniak-Peakr-3G" onclick="WinOpen_z23()">
+                  <input type="button" name="zadanie28" value="Zadanie28-Wawrzyniak-Peakr-3G" onclick="WinOpen_z28()">
+                  <input type="button" name="zadanie29" value="Zadanie29-Wawrzyniak-Peakr-3G" onclick="WinOpen_z29()">
+                  <input type="button" name="zadanie30" value="Zadanie30-Wawrzyniak-Peakr-3G" onclick="WinOpen_z30()">
+                  <input type="button" name="zadanie31" value="Zadanie31-Wawrzyniak-Peakr-3G" onclick="WinOpen_z31()">
+                  <input type="button" name="zadanie32" value="Zadanie32-Wawrzyniak-Peakr-3G" onclick="WinOpen_z32()">
             <input type="button" name="zadanie11_kod" value="Zadanie11-Wawrzyniak-Peakr-3G kod" onclick="WinOpen_z11_kod()">
             <input type="button" name="zadanie12_kod" value="Zadanie12-Wawrzyniak-Peakr-3G kod" onclick="WinOpen_z12_kod()">
       <input type="button" name="zadanie13_kod" value="Zadanie13-Wawrzyniak-Peakr-3G kod" onclick="WinOpen_z13_kod()">
       <input type="button" name="zadanie14_kod" value="Zadanie14-Wawrzyniak-Peakr-3G kod" onclick="WinOpen_z14_kod()">
-            <input type="button" name="zadanie15_kod" value="Zadanie6-Wawrzyniak-Peakr-3G kod" onclick="WinOpen_z15_kod()">
-            <input type="button" name="zadanie16_kod" value="Zadanie6-Wawrzyniak-Peakr-3G KOD" onclick="WinOpen_z16_kod()">
-      <input type="button" name="zadanie18_kod" value="Zadanie7-Wawrzyniak-Pekar-3G KOD" onclick="WinOpen_z18_kod()">
-            <input type="button" name="zadanie19_kod" value="Zadanie7-Wawrzyniak-Pekar-3G KOD" onclick="WinOpen_z18_kod()">
-            <input type="button" name="zadanie20_kod" value="Zadanie7-Wawrzyniak-Pekar-3G KOD" onclick="WinOpen_z19_kod()">
-            <input type="button" name="zadanie22_kod" value="Zadanie7-Wawrzyniak-Pekar-3G KOD" onclick="WinOpen_z22_kod()">
-            <input type="button" name="zadanie23_kod" value="Zadanie7-Wawrzyniak-Pekar-3G KOD" onclick="WinOpen_z23_kod()">
+            <input type="button" name="zadanie15_kod" value="Zadanie15-Wawrzyniak-Peakr-3G kod" onclick="WinOpen_z15_kod()">
+            <input type="button" name="zadanie16_kod" value="Zadanie16-Wawrzyniak-Peakr-3G KOD" onclick="WinOpen_z16_kod()">
+      <input type="button" name="zadanie18_kod" value="Zadanie18-Wawrzyniak-Pekar-3G KOD" onclick="WinOpen_z18_kod()">
+            <input type="button" name="zadanie19_kod" value="Zadanie19-Wawrzyniak-Pekar-3G KOD" onclick="WinOpen_z18_kod()">
+            <input type="button" name="zadanie20_kod" value="Zadanie20-Wawrzyniak-Pekar-3G KOD" onclick="WinOpen_z19_kod()">
+            <input type="button" name="zadanie22_kod" value="Zadanie22-Wawrzyniak-Pekar-3G KOD" onclick="WinOpen_z22_kod()">
+            <input type="button" name="zadanie23_kod" value="Zadanie23-Wawrzyniak-Pekar-3G KOD" onclick="WinOpen_z23_kod()">
+                  <input type="button" name="zadanie30_kod" value="Zadanie30-Wawrzyniak-Pekar-3G KOD" onclick="WinOpen_z30_kod()">
+                  <input type="button" name="zadanie31_kod" value="Zadanie31-Wawrzyniak-Pekar-3G KOD" onclick="WinOpen_z31_kod()">
+                  <input type="button" name="zadanie32_kod" value="Zadanie32-Wawrzyniak-Pekar-3G KOD" onclick="WinOpen_z32_kod()">
       <input type="button" value="Zamknij okno" onclick="okno_zamknij()"/>
    </form>
 </body>
