@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<textarea>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 31</title>
+    <script type="text/javascript">
+        var samochod = {
+            kolor: 'Czerwony',
+            marka: 'Toyota',
+            rok: 2020,
+            samochod_wyswietl_wawr: function () {
+                document.getElementById('wynik').innerHTML = 
+                    "Obiekt: Samochod<br>" +
+                    "Pola: kolor, marka, rok<br>" +
+                    "Metoda: samochod_wyswietl_wawr<br>" +
+                    "Wartości: " + this.kolor + ", " + this.marka + ", " + this.rok;
+            }
+        };
+        samochod.typ = 'Osobowy';
+
+        samochod.samochod_pokaz_wawr = function () {
+            document.getElementById('wynik').innerHTML += 
+                "<br>Nowe pole: typ<br>" +
+                "Nowa metoda: samochod_pokaz_wawr<br>" +
+                "Wartość nowego pola: " + this.typ;
+        };
+
+        function pokazKod() {
+            alert("Kod znajduje się w źródle strony.");
+        }
+    </script>
+</head>
+<body>
+    <h1>Programowanie Obiektowe</h1>
+    <p>Obiekt: Samochod</p>
+    <button onclick="samochod.samochod_wyswietl_wawr()">Pokaż właściwości</button>
+    <button onclick="samochod.samochod_pokaz_wawr()">Pokaż nowe pole i metodę</button>
+    <div id="wynik"></div>
+</body>
+</html>
+
+</textarea>
+</body>
+</html>
