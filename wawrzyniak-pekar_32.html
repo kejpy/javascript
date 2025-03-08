@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zadanie 32</title>
+    <script>
+        function Uczen(nazwisko, imie, klasa, wiek) {
+            this.nazwisko = nazwisko;
+            this.imie = imie;
+            this.klasa = klasa;
+            this.wiek = wiek;
+        }
+        Uczen.prototype.wypisz = function () {
+            alert(this.nazwisko + ' ' + this.imie + ', Klasa: ' + this.klasa + ', Wiek: ' + this.wiek);
+        };
+        Uczen.prototype.szkola = "Liceum Ogólnokształcące";
+        Uczen.prototype.uczen_pokaz_nazwisko = function () {
+            alert("Nazwisko: " + this.nazwisko);
+        };
+        var uczen1 = new Uczen("Kowalski", "Jan", "3A", 17);
+        var uczen2 = new Uczen("Nowak", "Anna", "2B", 16);
+        var uczen3 = new Uczen("Wiśniewski", "Marek", "1C", 15);
+        function pokazDaneUczniow() {
+            uczen1.wypisz();
+            uczen2.wypisz();
+            uczen3.wypisz();
+        }
+        function pokazNazwisko() {
+            uczen1.uczen_pokaz_nazwisko();
+        }
+    </script>
+</head>
+<body>
+    <h2>Programowanie obiektowe w JavaScript</h2>
+    <button onclick="pokazDaneUczniow()">Pokaż dane uczniów</button>
+    <button onclick="pokazNazwisko()">Pokaż nazwisko pierwszego ucznia</button>
+</body>
+</html>
