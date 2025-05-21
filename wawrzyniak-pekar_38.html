@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Zadanie 38</title>
+</head>
+<body style="background-color:silver;">
+<script>
+
+  var imie = "Kacper";
+  var nazwisko = "Wawrzyniak-Pekar";
+  var dzien_urodzenia = 10;
+  var numer_w_dzienniku = 31;
+
+  var liczba1 = imie.length;
+  var liczba2 = liczba1 + 7;
+  var liczba3 = nazwisko.length;
+  var liczba4 = liczba3 + 4;
+  var rozmiar_czcionki = 40 + (numer_w_dzienniku % 7);
+
+
+  document.write("<p style=\"color:green; font-size:" + rozmiar_czcionki + "px;\">" +
+                 "Imię i nazwisko: " + imie + " " + nazwisko + "<br>" +
+                 "Liczba1 = " + liczba1 + ", Liczba2 = " + liczba2 + ", Liczba3 = " + liczba3 + ", Liczba4 = " + liczba4 + "</p>");
+
+
+  document.write("<p style=\"color:red; font-size:" + rozmiar_czcionki + "px;\">" +
+                 "MENU:<br>" +
+                 "Opcja " + liczba1 + " - teoria operatorów logicznych<br>" +
+                 "Opcja " + (liczba3 + 20) + " - sprawdzenie przedziału (" + liczba3 + ";" + liczba4 + "]<br>" +
+                 "Opcja " + (dzien_urodzenia + 50) + " - sprawdzenie przedziału (-oo," + liczba1 + ") lub [" + liczba2 + ", +oo)<br></p>");
+
+
+  var opcja_wawr = parseInt(prompt("Wybierz numer opcji:", ""));
+
+
+  if (opcja_wawr === liczba1) {
+    document.write("<font color=blue size=6>Jesteś w opcji " + liczba1 + " --> teoria operatorów logicznych</font><br>");
+    document.write("<ul><li>Operator && - i (AND)</li><li>Operator || - lub (OR)</li><li>Operator ! - zaprzeczenie (NOT)</li></ul>");
+  } else if (opcja_wawr === liczba3 + 20) {
+    var liczba_wawr = parseFloat(prompt("Podaj liczbę do sprawdzenia:", ""));
+    if (liczba_wawr > liczba3 && liczba_wawr <= liczba4) {
+      document.write("<font color=green size=5>Liczba należy do przedziału (" + liczba3 + ";" + liczba4 + "]</font><br>");
+    } else {
+      document.write("<font color=red size=5>Liczba NIE należy do przedziału</font><br>");
+    }
+  } else if (opcja_wawr === dzien_urodzenia + 50) {
+    var liczba2_wawr = parseFloat(prompt("Podaj liczbę do sprawdzenia:", ""));
+    if (liczba2_wawr < liczba1 || liczba2_wawr >= liczba2) {
+      document.write("<font color=green size=5>Liczba należy do jednego z przedziałów (-oo," + liczba1 + ") lub [" + liczba2 + ",+oo)</font><br>");
+    } else {
+      document.write("<font color=red size=5>Liczba NIE należy do przedziałów</font><br>");
+    }
+  } else {
+    document.write("<font color=red size=7>Nie ma takiej opcji</font><br>");
+  }
+</script>
+</body>
+</html>
