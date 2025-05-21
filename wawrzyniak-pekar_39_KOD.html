@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<textarea>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie39</title>
+</head>
+<body style="background-color:silver;">
+
+    <h2 style="color:green;">MENU:</h2>
+    <p style="color:red;">1 - CZERWONY</p>
+    <p style="color:blue;">2 - NIEBIESKI</p>
+
+    <input type="button" name="wawr_zad39" value="Oblicz" onclick="fun_wawr()" />
+
+    <script>
+        function fun_wawr() {
+            var opcja_dana_wawr = prompt("Podaj kolor (1, 2, czerwony, niebieski):", "");
+            if(opcja_dana_wawr == "1" || opcja_dana_wawr.toLowerCase() == "czerwony") {
+                document.write('<h1 style="color:red;">wczytałeś kolor czerwony</h1><br />');
+            }
+            else if(opcja_dana_wawr == "2" || opcja_dana_wawr.toLowerCase() == "niebieski") {
+                document.write('<h6 style="color:blue;">wczytałeś kolor niebieski</h6><br />');
+            }
+            else {
+                document.write('<h4 style="color:black;">Nieznana opcja</h4><br />');
+            }
+        }
+    </script>
+
+</body>
+</html>
+</textarea>
+</body>
+</html>
