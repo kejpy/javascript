@@ -180,7 +180,55 @@
     
       function WinOpen_z32_kod() {
          window.open("wawrzyniak-pekar_32.html", "okienko_z32", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
-    }        
+    }     
+         
+      function WinOpen_z35() {
+         window.open("wawrzyniak-pekar_35.html", "okienko_z32", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+    }     
+         
+      function WinOpen_z36() {
+         window.open("wawrzyniak-pekar_36.html", "okienko_z32", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+    }     
+         
+      function WinOpen_z37() {
+         window.open("wawrzyniak-pekar_37.html", "okienko_z32", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+    }     
+         
+      function WinOpen_z38() {
+         window.open("wawrzyniak-pekar_38.html", "okienko_z32", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+    }     
+         
+      function WinOpen_z39() {
+         window.open("wawrzyniak-pekar_39.html", "okienko_z32", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+    }     
+         
+      function WinOpen_z40() {
+         window.open("wawrzyniak-pekar_40.html", "okienko_z32", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+    }     
+         
+      function WinOpen_z35_kod() {
+         window.open("wawrzyniak-pekar_35_KOD.html", "okienko_z32", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+    }     
+         
+      function WinOpen_z36_kod() {
+         window.open("wawrzyniak-pekar_36_KOD.html", "okienko_z32", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+    }     
+         
+      function WinOpen_z37_kod() {
+         window.open("wawrzyniak-pekar_37_KOD.html", "okienko_z32", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+    }     
+         
+      function WinOpen_z38_kod() {
+         window.open("wawrzyniak-pekar_38_KOD.html", "okienko_z32", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+    }     
+         
+      function WinOpen_z39_kod() {
+         window.open("wawrzyniak-pekar_39_KOD.html", "okienko_z32", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+    }     
+         
+      function WinOpen_z40_kod() {
+         window.open("wawrzyniak-pekar_40_KOD.html", "okienko_z32", "toolbar=no,directories=no,menubar=no,height=300,width=200,top=250,left=700");
+    }
      
       function okno_zamknij() {
          window.close();
@@ -218,6 +266,12 @@
                   <input type="button" name="zadanie30" value="Zadanie30-Wawrzyniak-Peakr-3G" onclick="WinOpen_z30()">
                   <input type="button" name="zadanie31" value="Zadanie31-Wawrzyniak-Peakr-3G" onclick="WinOpen_z31()">
                   <input type="button" name="zadanie32" value="Zadanie32-Wawrzyniak-Peakr-3G" onclick="WinOpen_z32()">
+      <input type="button" name="zadanie35" value="Zadanie35-Wawrzyniak-Peakr-3G" onclick="WinOpen_z35()">
+      <input type="button" name="zadanie36" value="Zadanie36-Wawrzyniak-Peakr-3G" onclick="WinOpen_z36()">
+      <input type="button" name="zadanie37" value="Zadanie37-Wawrzyniak-Peakr-3G" onclick="WinOpen_z37()">
+      <input type="button" name="zadanie38" value="Zadanie38-Wawrzyniak-Peakr-3G" onclick="WinOpen_z38()">
+      <input type="button" name="zadanie39" value="Zadanie39-Wawrzyniak-Peakr-3G" onclick="WinOpen_z39()">
+      <input type="button" name="zadanie40" value="Zadanie40-Wawrzyniak-Peakr-3G" onclick="WinOpen_z40()">
             <input type="button" name="zadanie11_kod" value="Zadanie11-Wawrzyniak-Peakr-3G kod" onclick="WinOpen_z11_kod()">
             <input type="button" name="zadanie12_kod" value="Zadanie12-Wawrzyniak-Peakr-3G kod" onclick="WinOpen_z12_kod()">
       <input type="button" name="zadanie13_kod" value="Zadanie13-Wawrzyniak-Peakr-3G kod" onclick="WinOpen_z13_kod()">
@@ -232,6 +286,12 @@
                   <input type="button" name="zadanie30_kod" value="Zadanie30-Wawrzyniak-Pekar-3G KOD" onclick="WinOpen_z30_kod()">
                   <input type="button" name="zadanie31_kod" value="Zadanie31-Wawrzyniak-Pekar-3G KOD" onclick="WinOpen_z31_kod()">
                   <input type="button" name="zadanie32_kod" value="Zadanie32-Wawrzyniak-Pekar-3G KOD" onclick="WinOpen_z32_kod()">
+      <input type="button" name="zadanie35_kod" value="Zadanie35-Wawrzyniak-Pekar-3G KOD" onclick="WinOpen_z32_kod()">
+      <input type="button" name="zadanie36_kod" value="Zadanie36-Wawrzyniak-Pekar-3G KOD" onclick="WinOpen_z32_kod()">
+      <input type="button" name="zadanie37_kod" value="Zadanie37-Wawrzyniak-Pekar-3G KOD" onclick="WinOpen_z32_kod()">
+      <input type="button" name="zadanie38_kod" value="Zadanie38-Wawrzyniak-Pekar-3G KOD" onclick="WinOpen_z32_kod()">
+      <input type="button" name="zadanie39_kod" value="Zadanie39-Wawrzyniak-Pekar-3G KOD" onclick="WinOpen_z32_kod()">
+      <input type="button" name="zadanie40_kod" value="Zadanie40-Wawrzyniak-Pekar-3G KOD" onclick="WinOpen_z32_kod()">
       <input type="button" value="Zamknij okno" onclick="okno_zamknij()"/>
    </form>
 </body>
