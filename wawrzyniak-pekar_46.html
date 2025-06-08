@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Wawrzyniak-Pekar_Zadanie46</title>
+</head>
+<body>
+<div style="color:red; font-size:50px;">
+<script>
+  let h_waw, a_waw;
+  do {
+    let liczba1 = prompt("Podaj wysokość (cm):", "");
+    h_waw = parseFloat(liczba1);
+  } while (h_waw <= 0);
+  do {
+    let liczba2 = prompt("Podaj podstawę (cm):", "");
+    a_waw = parseFloat(liczba2);
+  } while (!(a_waw > 0));
+  let pole_waw = a_waw * h_waw / 2;
+  document.write("Pole = " + pole_waw.toFixed(2) + " cm²<br>");
+</script>
+</div>
+</body>
+</html>
