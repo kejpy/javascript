@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Wawrzyniak-Pekar_Zadanie49</title>
+</head>
+<body>
+<div style="font-size:30px; color:blue;">
+<script>
+  let n_waw = parseInt(prompt("Podaj liczbę całkowitą n (>=0):", "0"));
+  let silnia_waw = 1;
+  if (n_waw === 0) {
+    silnia_waw = 1;
+  } else if (n_waw > 0) {
+    for (let i_waw = 1; i_waw <= n_waw; i_waw++) {
+      silnia_waw *= i_waw;
+    }
+  } else {
+    document.write("Podano nieprawidłową liczbę. Proszę uruchomić program ponownie i podać n >= 0.");
+  }
+
+  if (n_waw >= 0) {
+    document.write("n = " + n_waw + "<br>");
+    document.write(n_waw + "! = " + silnia_waw);
+  }
+</script>
+</div>
+</body>
+</html>
