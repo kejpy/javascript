@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<textarea>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <title>Wawrzyniak-Peakr-Zadanie55</title>
+</head>
+<body>
+<script>
+  let l1_t_waw, l2_t_waw;
+  let pocz_waw;
+  let tekst_waw;
+
+  do {
+    l1_t_waw = parseInt(prompt("Podaj pierwszą liczbę z przedziału <20,60>:"));
+    if (l1_t_waw < 20 || l1_t_waw > 60) {
+      alert("Liczba l1 nie należy do przedziału <20,60>");
+    }
+  } while (l1_t_waw < 20 || l1_t_waw > 60);
+
+  // Wczytaj i sprawdź drugą liczbę
+  do {
+    l2_t_waw = parseInt(prompt("Podaj drugą liczbę z przedziału <20,60>:"));
+    if (l2_t_waw < 20 || l2_t_waw > 60) {
+      alert("Liczba l2 nie należy do przedziału <20,60>");
+    }
+  } while (l2_t_waw < 20 || l2_t_waw > 60);
+
+  // Wczytaj wartość początkową wielkości tekstu
+  pocz_kow = parseInt(prompt("Podaj początkową wielkość tekstu (px):"));
+
+  // Wczytaj tekst
+  tekst_kow = prompt("Podaj dowolny tekst:");
+
+  // Warunki działania programu
+  if (l1_t_waw < l2_t_waw) {
+    for (let i = pocz_waw; i <= 100; i += 5) {
+      document.write("<p style=\"font-size:" + i + "px; color: black;\">" + tekst_waw + "</p>");
+    }
+  } else if (l1_t_waw > l2_t_waw) {
+    for (let i = pocz_waw; i >= 0; i -= 5) {
+      document.write("<p style=\"font-size:" + i + "px; color: black;\">" + tekst_waw + "</p>");
+    }
+  } else {
+    document.write("<p style=\"font-size:" + pocz_waw + "px; color: black;\">" + tekst_waw + "</p>");
+  }
+</script>
+</body>
+</html>
+
+</textarea>
+</body>
+</html>
