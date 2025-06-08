@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Wawrzyniak-Pekar_Zadanie44</title>
+</head>
+<body>
+  <script>
+    let koniec_petli_waw = 10; 
+    let wielkosc_liter_waw = 42; 
+
+    document.write("<p>Ilość wykonania pętli = " + koniec_petli_waw + "</p>");
+    document.write("<p>Wielkość liter = " + wielkosc_liter_waw + "px</p>");
+
+    for (let i_waw = 1; i_waw <= koniec_petli_waw; i_waw++) {
+      if (i_waw % 2 === 1) {
+        document.write("<div style='font-size:" + wielkosc_liter_waw + "px; color:blue;'>Wawrzyniak-Pekar</div>");
+      } else {
+        document.write("<div style='font-size:" + wielkosc_liter_waw + "px; color:green;'>Kacper</div>");
+      }
+    }
+  </script>
+</body>
+</html>
