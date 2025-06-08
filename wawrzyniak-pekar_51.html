@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <title>Wawrzyniak-Pekar-Zadanie51</title>
+</head>
+<body>
+
+<div style="color:red; font-size:2cm; font-weight: bold;">
+  Kowalski
+</div>
+
+<div style="color:blue; font-size:5mm; margin-bottom:20px;">
+  Zadanie 51 - Modyfikacja pętli zagnieżdżonych
+</div>
+
+<script>
+  let ile_razy = parseInt(prompt("Podaj, ile razy powtórzyć napis:", "5"));
+  let tekst = prompt("Podaj tekst do wyświetlenia (np. inicjały):", "JK");
+  for (let i = 1; i <= ile_razy; i++) {
+    for (let j = 1; j <= i; j++) {
+      document.write("&nbsp;");
+    }
+    document.write(i + "_" + tekst + "_" + i + "<br>");
+  }
+</script>
+
+</body>
+</html>
