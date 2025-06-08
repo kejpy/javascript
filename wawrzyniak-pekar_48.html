@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Wawrzyniak-Pekar_Zadanie48</title>
+</head>
+<body>
+<div style="font-size:30px; color:darkgreen;">
+<script>
+  let suma_waw = 0;
+  let i_waw = 1;
+
+  while (i_waw <= 1000000) {
+    suma_waw = suma_waw + 1 / i_waw;
+    i_waw++;
+  }
+
+  document.write("Suma szeregu harmonicznego od 1 do 1 000 000 wynosi: <br><br>");
+  document.write("<strong>" + suma_waw.toFixed(6) + "</strong>");
+</script>
+</div>
+</body>
+</html>
