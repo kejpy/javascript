@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<textarea>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <title>Wawrzyniak-Pekar-Zadanie52</title>
+</head>
+<body>
+<pre style="font-family: monospace; font-size: 16px; color: green;">
+
+<script>
+  let dl_nazwiska = "Wawrzyniak-Pekar".length;
+  let dl_imienia = "Kacper".length;
+
+  let a_waw = (dl_nazwiska % 4) + 5;
+  let b_waw = (dl_imienia % 6) + 20;
+  for (let i = 0; i < b_waw; i++) {
+    document.write("*");
+  }
+  document.write("<br>");
+  for (let i = 0; i < a_waw - 2; i++) {
+    document.write("*");
+    for (let j = 0; j < b_waw - 2; j++) {
+      document.write("&nbsp;");
+    }
+    document.write("*<br>");
+  }
+  for (let i = 0; i < b_waw; i++) {
+    document.write("*");
+  }
+  document.write("<br>");
+  document.write("<br><span style='color:red;'>Wysokość (a) = " + a_waw + "</span><br>");
+  document.write("<span style='color:blue;'>Szerokość (b) = " + b_waw + "</span><br>");
+</script>
+</pre>
+</body>
+</html>
+
+</textarea>
+</body>
+</html>
