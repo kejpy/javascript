@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<textarea>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Wawrzyniak-Pekar_Zadanie47</title>
+</head>
+<body>
+<div style="color:darkblue; font-size:40px;">
+<script>
+  let a_waw, b_waw, c_waw;
+  let poprawneDane_kow = false;
+
+  do {
+    a_waw = parseFloat(prompt("Podaj bok a:", ""));
+    b_waw = parseFloat(prompt("Podaj bok b:", ""));
+    c_waw = parseFloat(prompt("Podaj bok c:", ""));
+
+    poprawneDane_waw = (
+      a_waw > 0 && b_waw > 0 && c_waw > 0 &&
+      a_waw + b_waw > c_waw &&
+      a_waw + c_waw > b_waw &&
+      b_waw + c_waw > a_waw
+    );
+
+    if (!poprawneDane_waw) {
+      alert("Błędne dane. Boki nie spełniają warunków trójkąta. Spróbuj ponownie.");
+    }
+
+  } while (!poprawneDane_waw);
+
+  document.write("Poprawne boki: a = " + a_waw + ", b = " + b_waw + ", c = " + c_waw + "<br>");
+  document.write("Trójkąt można zbudować ️");
+</script>
+</div>
+</body>
+</html>
+
+</textarea>
+</body>
+</html>
